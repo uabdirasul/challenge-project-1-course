@@ -1,6 +1,7 @@
-import Header from "./components/Header.js";
-import Footer from "./components/Footer.js";
-import Note from "./components/Note.js";
+import React from "react";
+import Header from "./Header.js";
+import Footer from "./Footer.js";
+import Note from "./Note.js";
 
 function App() {
   return (

@@ -1,17 +1,13 @@
 import React from 'react';
-import "./Footer.css";
 
 const Footer = () => {
-  const date = new Date()
-  let currentYear = date.getFullYear()
+  let currentYear = new Date().getFullYear()
 
   return (
-    <footer className="footer">
-      <div className="container">
-        <p>
-          Copyrights Reserved {currentYear}
-        </p>
-      </div>
+    <footer>
+      <p>
+        Copyright &copy;{currentYear}
+      </p>
     </footer>
   );
 }
